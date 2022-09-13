@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    overflow: hidden;
+}
+
+.fundo img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+.image {
+    position: absolute;
+    transition: all .20s;
+    pointer-events: none;
+}
+
+.image img {
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
