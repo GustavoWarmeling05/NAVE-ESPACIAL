@@ -11,27 +11,11 @@
 
 <body>
 
-    <div class="fundo">
-        <img src="3.jpg" alt="">
-    </div>
-
     <div class="image">
-        <img src="2.png" alt="">
+        <img src="2.png" alt="Nave-Alienigina">
     </div>
 
-    <script>
-        var imgmovement = document.getElementsByClassName("image");
-        document.onmousemove = function () {
-            var x = event.clientX * 100 / window.innerWidth + "%";
-            var y = event.clientY * 100 / window.innerHeight + "%";
-
-            for (var i = 0; i < 2; i++) {
-                imgmovement[i].style.left = x;
-                imgmovement[i].style.top = y;
-                imgmovement[i].style.transform = "translate(-" + x + ", - " + y + ")";
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 
 </body>
 

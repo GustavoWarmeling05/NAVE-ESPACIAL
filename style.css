@@ -1,15 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: auto;
     overflow: hidden;
 }
 
-.fundo img{
+body {
+    background-image: url(3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
-    min-width: 100%;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 
